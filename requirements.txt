@@ -1,0 +1,45 @@
+# =============================================================================
+# Fundamental Analyst AI Agent - Dependencies
+# =============================================================================
+# MSc Coursework: AI Agents in Asset Management
+# Track A: Fundamental Analyst Agent
+#
+# Installation: pip install -r requirements.txt
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Core Data Processing
+# -----------------------------------------------------------------------------
+pandas>=2.2.0                  # Data manipulation and analysis
+numpy>=2.2.0                   # Numerical operations
+
+# -----------------------------------------------------------------------------
+# Financial Data Source
+# -----------------------------------------------------------------------------
+yfinance>=0.2.48               # Yahoo Finance API wrapper
+
+# -----------------------------------------------------------------------------
+# Report Generation
+# -----------------------------------------------------------------------------
+reportlab>=4.2.0               # PDF generation
+# Note: HTML and Markdown are generated without external dependencies
+
+# -----------------------------------------------------------------------------
+# LLM Integration (Optional)
+# -----------------------------------------------------------------------------
+anthropic>=0.34.0              # Claude API for memo generation
+# Note: Falls back to rule-based generation if not available
+
+# -----------------------------------------------------------------------------
+# Utilities
+# -----------------------------------------------------------------------------
+python-dateutil>=2.9.0         # Date/time utilities (often included with pandas)
+
+# -----------------------------------------------------------------------------
+# Development/Testing (Optional)
+# -----------------------------------------------------------------------------
+ pytest>=8.3.0                 # Testing framework
+ black>=24.10.0                # Code formatting
+ mypy>=1.13.0                  # Type checking
+ flake8>=7.2.0                 # Linting
+
